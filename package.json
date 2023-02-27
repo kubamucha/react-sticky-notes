@@ -2,7 +2,7 @@
     "name": "react-sticky-notes",
     "private": true,
     "version": "0.0.0",
-    "homepage": "https://kubamucha.github.io/react-sticky-notes",
+    "homepage": "https://kubamucha.github.io/react-sticky-notes/",
     "type": "module",
     "scripts": {
         "predeploy": "npm run build",
