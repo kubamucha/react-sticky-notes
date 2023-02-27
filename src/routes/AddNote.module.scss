@@ -1,0 +1,41 @@
+@use '../variables' as *;
+
+.form {
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+
+.label {
+    margin: 20px 0 10px 0;
+}
+
+.text,
+.category {
+    padding: 8px;
+    font-family: inherit;
+    background: none;
+    border: 2px solid $darkgrey;
+    border-radius: 5px;
+    resize: vertical;
+
+    &:focus {
+        outline: none;
+        border-color: $darkestgrey;
+    }
+}
+
+.actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.error {
+    text-align: center;
+    color: $red;
+}
